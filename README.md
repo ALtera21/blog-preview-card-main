@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution here](https://www.frontendmentor.io/solutions/responsive-blog-preview-card-desktop-first-9YwZmRANWz)
+- Live Site URL: [Live site URL](https://altera21.github.io/blog-preview-card-main/)
 
 ## My process
 
