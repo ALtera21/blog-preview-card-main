@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* font-family: "Figtree", sans-serif; */
+
+*{
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    overflow: hidden;
+}
+
+.container{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+    height: 522px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 10px 10px;
+    transition: 0.5s ease;
+}
+
+.container:hover{
+    transform: translateY(-20px);
+}
+
+.main-image{
+    background-image: url("assets/images/illustration-article.svg");
+    border-radius: 10px;
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 336px;
+    height: 200px;
+}
+
+
+/* CONTENT */
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 336px;
+    height: 194px;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+.learning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 82px;
+    height: 29px;
+    background-color: hsl(47, 88%, 63%);
+    font-size: 14px;
+    font-weight: 900;
+    border-radius: 4px;
+}
+
+p{
+    margin: 0;
+}
+
+h2{
+    font-weight: 1000;
+    margin: 0;
+}
+
+h2:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+p.description{
+    color: hsl(0, 0%, 50%);
+}
+
+
+/* CONTENT */
+
+.author{
+    width: 129px;
+    height: 32px;
+    margin: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pfp{
+    background-image: url("assets/images/image-avatar.webp");
+    background-size: cover;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.name{
+    font-size: 14px;
+    font-weight: 900;
+}
+
+@media (max-width: 400px){
+    .container{
+        width: 327px;
+        height: 501px;
+    }
+
+    .main-image{
+        width: 279px;
+        height: 200px;
+        background-size: cover;
+    }
+
+    .content{
+        width: 279px;
+        height: 173px;
+    }
+
+    .learning{
+        width: 73px;
+        height: 26px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    .learning, p{
+        font-size: 12px;
+    }
+
+    .description{
+        line-height: 18px;
+    }
+}
